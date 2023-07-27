@@ -23,3 +23,5 @@ enum PrivateSettings: String, CaseIterable {
 enum Extra: String, CaseIterable {
     case center = "고객센터/도움말"
 }
+
+
