@@ -17,6 +17,8 @@
 		8BFE0C572A7232DC001C90D2 /* StudyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE0C562A7232DC001C90D2 /* StudyTableViewController.swift */; };
 		8BFE0C592A724969001C90D2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE0C582A724969001C90D2 /* Extension.swift */; };
 		8BFE0C5B2A72539F001C90D2 /* AssignCase1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE0C5A2A72539F001C90D2 /* AssignCase1TableViewController.swift */; };
+		8BFE0C5D2A726584001C90D2 /* AssignCase2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE0C5C2A726584001C90D2 /* AssignCase2TableViewController.swift */; };
+		8BFE0C5F2A726E4F001C90D2 /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE0C5E2A726E4F001C90D2 /* Enumeration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		8BFE0C562A7232DC001C90D2 /* StudyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		8BFE0C582A724969001C90D2 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		8BFE0C5A2A72539F001C90D2 /* AssignCase1TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignCase1TableViewController.swift; sourceTree = SOURCE_ROOT; };
+		8BFE0C5C2A726584001C90D2 /* AssignCase2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignCase2TableViewController.swift; sourceTree = SOURCE_ROOT; };
+		8BFE0C5E2A726E4F001C90D2 /* Enumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 		8BFE0C3F2A720007001C90D2 /* SeSacWeek3 */ = {
 			isa = PBXGroup;
 			children = (
+				8BFE0C5C2A726584001C90D2 /* AssignCase2TableViewController.swift */,
+				8BFE0C5E2A726E4F001C90D2 /* Enumeration.swift */,
 				8BFE0C5A2A72539F001C90D2 /* AssignCase1TableViewController.swift */,
 				8BFE0C562A7232DC001C90D2 /* StudyTableViewController.swift */,
 				8BFE0C542A720FF2001C90D2 /* TodoTableViewController.swift */,
@@ -151,6 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BFE0C452A720007001C90D2 /* ViewController.swift in Sources */,
+				8BFE0C5D2A726584001C90D2 /* AssignCase2TableViewController.swift in Sources */,
+				8BFE0C5F2A726E4F001C90D2 /* Enumeration.swift in Sources */,
 				8BFE0C552A720FF2001C90D2 /* TodoTableViewController.swift in Sources */,
 				8BFE0C5B2A72539F001C90D2 /* AssignCase1TableViewController.swift in Sources */,
 				8BFE0C572A7232DC001C90D2 /* StudyTableViewController.swift in Sources */,
