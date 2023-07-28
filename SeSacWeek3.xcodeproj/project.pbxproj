@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B89F1912A7389C600DC5A82 /* TodoCS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B89F1902A7389C500DC5A82 /* TodoCS.swift */; };
+		8B89F1932A738A1300DC5A82 /* TodoCSInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B89F1922A738A1300DC5A82 /* TodoCSInformation.swift */; };
 		8BFE0C412A720007001C90D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE0C402A720007001C90D2 /* AppDelegate.swift */; };
 		8BFE0C432A720007001C90D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE0C422A720007001C90D2 /* SceneDelegate.swift */; };
 		8BFE0C452A720007001C90D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE0C442A720007001C90D2 /* ViewController.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B89F1902A7389C500DC5A82 /* TodoCS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCS.swift; sourceTree = "<group>"; };
+		8B89F1922A738A1300DC5A82 /* TodoCSInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCSInformation.swift; sourceTree = SOURCE_ROOT; };
 		8BFE0C3D2A720007001C90D2 /* SeSacWeek3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSacWeek3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFE0C402A720007001C90D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BFE0C422A720007001C90D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 		8BFE0C3F2A720007001C90D2 /* SeSacWeek3 */ = {
 			isa = PBXGroup;
 			children = (
+				8B89F1922A738A1300DC5A82 /* TodoCSInformation.swift */,
 				8BFE0C662A73504D001C90D2 /* CustomCellTableViewController.swift */,
 				8BFE0C5C2A726584001C90D2 /* AssignCase2TableViewController.swift */,
 				8BFE0C5E2A726E4F001C90D2 /* Enumeration.swift */,
@@ -93,6 +98,7 @@
 				8BFE0C492A720008001C90D2 /* Assets.xcassets */,
 				8BFE0C4B2A720008001C90D2 /* LaunchScreen.storyboard */,
 				8BFE0C4E2A720008001C90D2 /* Info.plist */,
+				8B89F1902A7389C500DC5A82 /* TodoCS.swift */,
 			);
 			path = SeSacWeek3;
 			sourceTree = "<group>";
@@ -171,6 +177,8 @@
 				8BFE0C452A720007001C90D2 /* ViewController.swift in Sources */,
 				8BFE0C632A727F1F001C90D2 /* Struct.swift in Sources */,
 				8BFE0C5D2A726584001C90D2 /* AssignCase2TableViewController.swift in Sources */,
+				8B89F1912A7389C600DC5A82 /* TodoCS.swift in Sources */,
+				8B89F1932A738A1300DC5A82 /* TodoCSInformation.swift in Sources */,
 				8BFE0C612A727D25001C90D2 /* AssignCase3TableViewController.swift in Sources */,
 				8BFE0C672A73504D001C90D2 /* CustomCellTableViewController.swift in Sources */,
 				8BFE0C5F2A726E4F001C90D2 /* Enumeration.swift in Sources */,

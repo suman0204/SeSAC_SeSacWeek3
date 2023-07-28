@@ -7,7 +7,11 @@
 
 import UIKit
 
+
+
 class CustomCellTableViewController: UITableViewController {
+    
+    let todo = TodoCSInformation()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +22,7 @@ class CustomCellTableViewController: UITableViewController {
 
     //1.셀 갯수
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return todo.list.count
     }
     
     //2.셀 디자인
@@ -26,11 +30,13 @@ class CustomCellTableViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "CustomTableViewCell") as! CustomTableViewCell
         
-        cell.mainTitleLabel.text = "메인 타이틀 텍스트"
-        cell.subTitleLabel.text = "서브 타이틀 텍스트"
+        let row = todo.list[indexPath.row]
         
-        cell.checkboxImageView.image = UIImage(systemName: "checkmark")
-        cell.likeButton.setImage(UIImage(systemName: "star"), for: .normal)
+        cell.mainTitleLabel.text = row.main
+        cell.subTitleLabel.text = row.sub
+        
+        cell.configureCell(row: row)
+        
         
         return cell
     }

@@ -16,4 +16,21 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet var mainTitleLabel: UILabel!
     @IBOutlet var subTitleLabel: UILabel!
     @IBOutlet var likeButton: UIButton!
+    
+    func configureCell(row: TodoCS){
+        mainTitleLabel.text = row.main
+        subTitleLabel.text = row.sub
+        
+        if row.done {
+            checkboxImageView.image = UIImage(systemName: "checkmark.square")
+        } else {
+            checkboxImageView.image = UIImage(systemName: "checkmark.square.fill")
+        }
+        
+        if row.like {
+            likeButton.setImage(UIImage(systemName: "star.fill"), for: .normal)
+        } else{
+            likeButton.setImage(UIImage(systemName: "star"), for: .normal)
+        }
+    }
 }
