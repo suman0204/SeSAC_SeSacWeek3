@@ -21,6 +21,8 @@
 		8BFE0C5F2A726E4F001C90D2 /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE0C5E2A726E4F001C90D2 /* Enumeration.swift */; };
 		8BFE0C612A727D25001C90D2 /* AssignCase3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE0C602A727D25001C90D2 /* AssignCase3TableViewController.swift */; };
 		8BFE0C632A727F1F001C90D2 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE0C622A727F1F001C90D2 /* Struct.swift */; };
+		8BFE0C672A73504D001C90D2 /* CustomCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE0C662A73504D001C90D2 /* CustomCellTableViewController.swift */; };
+		8BFE0C692A735288001C90D2 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE0C682A735288001C90D2 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		8BFE0C5E2A726E4F001C90D2 /* Enumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
 		8BFE0C602A727D25001C90D2 /* AssignCase3TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignCase3TableViewController.swift; sourceTree = "<group>"; };
 		8BFE0C622A727F1F001C90D2 /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
+		8BFE0C662A73504D001C90D2 /* CustomCellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		8BFE0C682A735288001C90D2 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 		8BFE0C3F2A720007001C90D2 /* SeSacWeek3 */ = {
 			isa = PBXGroup;
 			children = (
+				8BFE0C662A73504D001C90D2 /* CustomCellTableViewController.swift */,
 				8BFE0C5C2A726584001C90D2 /* AssignCase2TableViewController.swift */,
 				8BFE0C5E2A726E4F001C90D2 /* Enumeration.swift */,
 				8BFE0C622A727F1F001C90D2 /* Struct.swift */,
@@ -83,6 +88,7 @@
 				8BFE0C442A720007001C90D2 /* ViewController.swift */,
 				8BFE0C582A724969001C90D2 /* Extension.swift */,
 				8BFE0C462A720007001C90D2 /* Main.storyboard */,
+				8BFE0C682A735288001C90D2 /* CustomTableViewCell.swift */,
 				8BFE0C602A727D25001C90D2 /* AssignCase3TableViewController.swift */,
 				8BFE0C492A720008001C90D2 /* Assets.xcassets */,
 				8BFE0C4B2A720008001C90D2 /* LaunchScreen.storyboard */,
@@ -166,6 +172,7 @@
 				8BFE0C632A727F1F001C90D2 /* Struct.swift in Sources */,
 				8BFE0C5D2A726584001C90D2 /* AssignCase2TableViewController.swift in Sources */,
 				8BFE0C612A727D25001C90D2 /* AssignCase3TableViewController.swift in Sources */,
+				8BFE0C672A73504D001C90D2 /* CustomCellTableViewController.swift in Sources */,
 				8BFE0C5F2A726E4F001C90D2 /* Enumeration.swift in Sources */,
 				8BFE0C552A720FF2001C90D2 /* TodoTableViewController.swift in Sources */,
 				8BFE0C5B2A72539F001C90D2 /* AssignCase1TableViewController.swift in Sources */,
@@ -173,6 +180,7 @@
 				8BFE0C592A724969001C90D2 /* Extension.swift in Sources */,
 				8BFE0C412A720007001C90D2 /* AppDelegate.swift in Sources */,
 				8BFE0C432A720007001C90D2 /* SceneDelegate.swift in Sources */,
+				8BFE0C692A735288001C90D2 /* CustomTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
