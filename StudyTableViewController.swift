@@ -23,11 +23,22 @@ class StudyTableViewController: UITableViewController {
 
     // 섹션 갯수
     override func numberOfSections(in tableView: UITableView) -> Int {
+        // 반환만 하는 함수라면 return 생략 가능
         return 2
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return section == 0 ? "첫 번째 섹션" : "두 번째 섹션"
+//        return section == 0 ? "첫 번째 섹션" : "두 번째 섹션"
+        
+        if section == 0 {
+            return "첫 번째 섹션"
+        } else if section == 1{
+            return "두 번째 섹션"
+        } else if section == 2{
+            return "세 번째 섹션"
+        }
+        
+        return ""
     }
     
     //1. 셀 갯수 (필수요소)

@@ -23,13 +23,24 @@ class AssignCase2TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+//        if section == 0 {
+//            return "전체 설정"
+//        } else if section == 1 {
+//            return "개인 설정"
+//        } else {
+//            return "기타"
+//        }
+        
+        //예외처리 신경써서 하기
         if section == 0 {
             return "전체 설정"
         } else if section == 1 {
             return "개인 설정"
-        } else {
+        } else if section == 2{
             return "기타"
         }
+        
+        return ""
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
