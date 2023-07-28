@@ -28,7 +28,7 @@ class CustomCellTableViewController: UITableViewController {
     //2.셀 디자인
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CustomTableViewCell") as! CustomTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: CustomTableViewCell.identifier) as! CustomTableViewCell
         
         let row = todo.list[indexPath.row]
         
