@@ -9,7 +9,11 @@ import UIKit
 
 class AssignCase3TableViewController: UITableViewController {
     
-    var todoList: [Todo] = []
+    var todoList: [Todo] = [
+    Todo.init(todoTitle: "그립톡 구매하기"),
+    Todo.init(todoTitle: "사이다 구매"),
+    Todo.init(todoTitle: "아이패드 케이스 최저가 알아보기"),
+    Todo.init(todoTitle: "양말")]
 
     @IBOutlet var userInputTextField: UITextField!
     @IBOutlet var insertTodoButton: UIButton!
@@ -18,13 +22,14 @@ class AssignCase3TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.rowHeight = 70
+        
         designTableHeaderView()
         
-        todoList.append(Todo.init(todoTitle: "그립톡 구매하기"))
-        todoList.append(Todo.init(todoTitle: "사이다 구매"))
-        todoList.append(Todo.init(todoTitle: "아이패드 케이스 최저가 알아보기"))
-        todoList.append(Todo.init(todoTitle: "양말"))
-
+//        todoList.append(Todo.init(todoTitle: "그립톡 구매하기"))
+//        todoList.append(Todo.init(todoTitle: "사이다 구매"))
+//        todoList.append(Todo.init(todoTitle: "아이패드 케이스 최저가 알아보기"))
+//        todoList.append(Todo.init(todoTitle: "양말"))
     }
 
     @IBAction func tapGestureTapped(_ sender: UITapGestureRecognizer) {
@@ -59,21 +64,24 @@ class AssignCase3TableViewController: UITableViewController {
         }
     }
     
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print(todoList.count)
         return todoList.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "todoCell")!
+        let cell = tableView.dequeueReusableCell(withIdentifier: Case3CustomCellTableViewCell.identifier) as! Case3CustomCellTableViewCell
         
         let todo = todoList[indexPath.row]
         
         cell.layer.cornerRadius = 20
         cell.backgroundColor = .systemGray6
         
-        cell.textLabel?.text = todo.todoTitle
-        
+//        cell.titleLabel.textLabel?.text = todo.todoTitle
+        cell.titleLabel.text = todo.todoTitle
+
         return cell
     }
 
