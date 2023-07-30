@@ -32,8 +32,8 @@ class CustomCellTableViewController: UITableViewController {
         
         let row = todo.list[indexPath.row]
         
-        cell.mainTitleLabel.text = row.main
-        cell.subTitleLabel.text = row.sub
+//        cell.mainTitleLabel.text = row.main
+//        cell.subTitleLabel.text = row.sub
         
         cell.configureCell(row: row)
         

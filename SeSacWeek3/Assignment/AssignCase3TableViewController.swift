@@ -10,10 +10,10 @@ import UIKit
 class AssignCase3TableViewController: UITableViewController {
     
     var todoList: [Todo] = [
-    Todo.init(todoTitle: "그립톡 구매하기"),
-    Todo.init(todoTitle: "사이다 구매"),
-    Todo.init(todoTitle: "아이패드 케이스 최저가 알아보기"),
-    Todo.init(todoTitle: "양말")]
+    Todo.init(todoTitle: "그립톡 구매하기", did: true, favorites: true),
+    Todo.init(todoTitle: "사이다 구매", did: false, favorites: false),
+    Todo.init(todoTitle: "아이패드 케이스 최저가 알아보기", did: false, favorites: true),
+    Todo.init(todoTitle: "양말", did: false, favorites: true)]
 
     @IBOutlet var userInputTextField: UITextField!
     @IBOutlet var insertTodoButton: UIButton!
@@ -22,14 +22,11 @@ class AssignCase3TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.rowHeight = 70
+        tableView.rowHeight = 80
         
         designTableHeaderView()
         
-//        todoList.append(Todo.init(todoTitle: "그립톡 구매하기"))
-//        todoList.append(Todo.init(todoTitle: "사이다 구매"))
-//        todoList.append(Todo.init(todoTitle: "아이패드 케이스 최저가 알아보기"))
-//        todoList.append(Todo.init(todoTitle: "양말"))
+
     }
 
     @IBAction func tapGestureTapped(_ sender: UITapGestureRecognizer) {
@@ -72,15 +69,11 @@ class AssignCase3TableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: Case3CustomCellTableViewCell.identifier) as! Case3CustomCellTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: Case3TableViewCell.identifier) as! Case3TableViewCell
         
         let todo = todoList[indexPath.row]
-        
-        cell.layer.cornerRadius = 20
-        cell.backgroundColor = .systemGray6
-        
-//        cell.titleLabel.textLabel?.text = todo.todoTitle
-        cell.titleLabel.text = todo.todoTitle
+                
+        cell.configureCell(row: todo)
 
         return cell
     }

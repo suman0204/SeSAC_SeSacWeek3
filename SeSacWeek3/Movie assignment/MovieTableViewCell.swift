@@ -21,7 +21,7 @@ class MovieTableViewCell: UITableViewCell {
     func configureCell(row: Movie) {
         moviePoster.image = UIImage(named: row.title)
         movieTitle.text = row.title
-        movieTitle.font = .boldSystemFont(ofSize: 17)
+        movieTitle.font = .boldSystemFont(ofSize: 18)
         movieInfo.text = "\(row.releaseDate) | \(row.runtime) | \(row.rate)"
         movieOverview.text = row.overview
         

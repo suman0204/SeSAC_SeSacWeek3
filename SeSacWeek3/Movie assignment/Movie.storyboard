@@ -43,7 +43,7 @@
                                             <rect key="frame" x="0.0" y="8" width="393" height="154"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxx-RV-7kh">
-                                                    <rect key="frame" x="137" y="8" width="42" height="25"/>
+                                                    <rect key="frame" x="130" y="8" width="42" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="YJF-zV-zlh"/>
                                                     </constraints>
@@ -52,7 +52,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKE-VB-igP">
-                                                    <rect key="frame" x="137" y="41" width="41.333333333333343" height="21"/>
+                                                    <rect key="frame" x="130" y="41" width="41.333333333333343" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="AmU-tc-na4"/>
                                                     </constraints>
@@ -61,7 +61,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2A-fa-mHK">
-                                                    <rect key="frame" x="137" y="70" width="248" height="76"/>
+                                                    <rect key="frame" x="130" y="70" width="255" height="76"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -72,10 +72,10 @@
                                                 <constraint firstAttribute="bottom" secondItem="f2A-fa-mHK" secondAttribute="bottom" constant="8" id="5IH-ig-1b6"/>
                                                 <constraint firstItem="f2A-fa-mHK" firstAttribute="top" secondItem="OKE-VB-igP" secondAttribute="bottom" constant="8" id="7yg-qn-4VC"/>
                                                 <constraint firstItem="OKE-VB-igP" firstAttribute="top" secondItem="Mxx-RV-7kh" secondAttribute="bottom" constant="8" id="BVv-YI-nwG"/>
-                                                <constraint firstItem="Mxx-RV-7kh" firstAttribute="leading" secondItem="C5x-EX-i1c" secondAttribute="leading" constant="137" id="XsT-A2-oqw"/>
-                                                <constraint firstItem="OKE-VB-igP" firstAttribute="leading" secondItem="C5x-EX-i1c" secondAttribute="leading" constant="137" id="c49-SN-Dsz"/>
+                                                <constraint firstItem="Mxx-RV-7kh" firstAttribute="leading" secondItem="C5x-EX-i1c" secondAttribute="leading" constant="130" id="XsT-A2-oqw"/>
+                                                <constraint firstItem="OKE-VB-igP" firstAttribute="leading" secondItem="C5x-EX-i1c" secondAttribute="leading" constant="130" id="c49-SN-Dsz"/>
                                                 <constraint firstItem="Mxx-RV-7kh" firstAttribute="top" secondItem="C5x-EX-i1c" secondAttribute="top" constant="8" id="hgJ-cI-ISW"/>
-                                                <constraint firstItem="f2A-fa-mHK" firstAttribute="leading" secondItem="C5x-EX-i1c" secondAttribute="leading" constant="137" id="lTx-af-v1X"/>
+                                                <constraint firstItem="f2A-fa-mHK" firstAttribute="leading" secondItem="C5x-EX-i1c" secondAttribute="leading" constant="130" id="lTx-af-v1X"/>
                                                 <constraint firstAttribute="trailing" secondItem="f2A-fa-mHK" secondAttribute="trailing" constant="8" id="raN-P1-Lp1"/>
                                             </constraints>
                                         </view>

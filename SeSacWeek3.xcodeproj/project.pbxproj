@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B7F12D92A7672C5006A6B39 /* Case3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F12D82A7672C5006A6B39 /* Case3TableViewCell.swift */; };
 		8B89F1912A7389C600DC5A82 /* TodoCS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B89F1902A7389C500DC5A82 /* TodoCS.swift */; };
 		8B89F1932A738A1300DC5A82 /* TodoCSInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B89F1922A738A1300DC5A82 /* TodoCSInformation.swift */; };
 		8B89F1952A73A25400DC5A82 /* Movie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B89F1942A73A25400DC5A82 /* Movie.storyboard */; };
-		8B89F19D2A73AFC600DC5A82 /* Case3CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B89F19C2A73AFC600DC5A82 /* Case3CustomCellTableViewCell.swift */; };
 		8B91CC332A7650760023A74D /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91CC322A7650760023A74D /* MovieTableViewCell.swift */; };
 		8BCB61C22A757031003458D0 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB61C12A757031003458D0 /* MovieTableViewController.swift */; };
 		8BCB61C42A75759C003458D0 /* MovieInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB61C32A75759C003458D0 /* MovieInfo.swift */; };
@@ -33,10 +33,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B7F12D82A7672C5006A6B39 /* Case3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case3TableViewCell.swift; sourceTree = "<group>"; };
 		8B89F1902A7389C500DC5A82 /* TodoCS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCS.swift; sourceTree = "<group>"; };
 		8B89F1922A738A1300DC5A82 /* TodoCSInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TodoCSInformation.swift; path = SeSacWeek3/Model/TodoCSInformation.swift; sourceTree = SOURCE_ROOT; };
 		8B89F1942A73A25400DC5A82 /* Movie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Movie.storyboard; sourceTree = "<group>"; };
-		8B89F19C2A73AFC600DC5A82 /* Case3CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case3CustomCellTableViewCell.swift; sourceTree = "<group>"; };
 		8B91CC322A7650760023A74D /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		8BCB61C12A757031003458D0 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
 		8BCB61C32A75759C003458D0 /* MovieInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieInfo.swift; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			children = (
 				8BFE0C662A73504D001C90D2 /* CustomCellTableViewController.swift */,
 				8BFE0C682A735288001C90D2 /* CustomTableViewCell.swift */,
-				8B89F19C2A73AFC600DC5A82 /* Case3CustomCellTableViewCell.swift */,
+				8B7F12D82A7672C5006A6B39 /* Case3TableViewCell.swift */,
 			);
 			path = CustomCell;
 			sourceTree = "<group>";
@@ -224,7 +224,6 @@
 			files = (
 				8BFE0C452A720007001C90D2 /* ViewController.swift in Sources */,
 				8BFE0C632A727F1F001C90D2 /* Struct.swift in Sources */,
-				8B89F19D2A73AFC600DC5A82 /* Case3CustomCellTableViewCell.swift in Sources */,
 				8BFE0C5D2A726584001C90D2 /* AssignCase2TableViewController.swift in Sources */,
 				8B89F1912A7389C600DC5A82 /* TodoCS.swift in Sources */,
 				8BCB61C22A757031003458D0 /* MovieTableViewController.swift in Sources */,
@@ -238,6 +237,7 @@
 				8BFE0C572A7232DC001C90D2 /* StudyTableViewController.swift in Sources */,
 				8B91CC332A7650760023A74D /* MovieTableViewCell.swift in Sources */,
 				8BFE0C592A724969001C90D2 /* Extension.swift in Sources */,
+				8B7F12D92A7672C5006A6B39 /* Case3TableViewCell.swift in Sources */,
 				8BFE0C412A720007001C90D2 /* AppDelegate.swift in Sources */,
 				8BFE0C432A720007001C90D2 /* SceneDelegate.swift in Sources */,
 				8BFE0C692A735288001C90D2 /* CustomTableViewCell.swift in Sources */,
