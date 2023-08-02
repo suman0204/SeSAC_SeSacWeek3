@@ -19,6 +19,14 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet var likeButton: UIButton!
     
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        mainTitleLabel.font = .boldSystemFont(ofSize: 17)
+        mainTitleLabel.textColor = .brown
+    }
+
+    
     func configureCell(row: TodoCS){
         
         backView.backgroundColor = row.color

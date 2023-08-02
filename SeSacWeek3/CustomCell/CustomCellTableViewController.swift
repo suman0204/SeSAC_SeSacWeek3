@@ -85,6 +85,14 @@ class CustomCellTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath)
         
+        let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        
+        vc.data = todo.list[indexPath.row]
+        
+        present(vc, animated: true)
+        
+        tableView.reloadRows(at: [indexPath], with: .none)
+        
     }
     
     //삭제
