@@ -18,7 +18,11 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet var subTitleLabel: UILabel!
     @IBOutlet var likeButton: UIButton!
     
+    
     func configureCell(row: TodoCS){
+        
+        backView.backgroundColor = row.color
+        
         mainTitleLabel.text = row.main
         subTitleLabel.text = row.sub
         

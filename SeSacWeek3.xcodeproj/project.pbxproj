@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B61D6BB2A79E7B400A9BC2F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B61D6BA2A79E7B400A9BC2F /* DetailViewController.swift */; };
 		8B7F12D92A7672C5006A6B39 /* Case3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F12D82A7672C5006A6B39 /* Case3TableViewCell.swift */; };
 		8B89F1912A7389C600DC5A82 /* TodoCS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B89F1902A7389C500DC5A82 /* TodoCS.swift */; };
 		8B89F1932A738A1300DC5A82 /* TodoCSInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B89F1922A738A1300DC5A82 /* TodoCSInformation.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B61D6BA2A79E7B400A9BC2F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = SOURCE_ROOT; };
 		8B7F12D82A7672C5006A6B39 /* Case3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case3TableViewCell.swift; sourceTree = "<group>"; };
 		8B89F1902A7389C500DC5A82 /* TodoCS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCS.swift; sourceTree = "<group>"; };
 		8B89F1922A738A1300DC5A82 /* TodoCSInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TodoCSInformation.swift; path = SeSacWeek3/Model/TodoCSInformation.swift; sourceTree = SOURCE_ROOT; };
@@ -132,6 +134,7 @@
 		8BFE0C3F2A720007001C90D2 /* SeSacWeek3 */ = {
 			isa = PBXGroup;
 			children = (
+				8B61D6BA2A79E7B400A9BC2F /* DetailViewController.swift */,
 				8B89F1972A73A6F200DC5A82 /* Model */,
 				8B89F1982A73A70700DC5A82 /* CustomCell */,
 				8B89F1992A73A71400DC5A82 /* Assignment */,
@@ -229,6 +232,7 @@
 				8BCB61C22A757031003458D0 /* MovieTableViewController.swift in Sources */,
 				8B89F1932A738A1300DC5A82 /* TodoCSInformation.swift in Sources */,
 				8BFE0C612A727D25001C90D2 /* AssignCase3TableViewController.swift in Sources */,
+				8B61D6BB2A79E7B400A9BC2F /* DetailViewController.swift in Sources */,
 				8BFE0C672A73504D001C90D2 /* CustomCellTableViewController.swift in Sources */,
 				8BFE0C5F2A726E4F001C90D2 /* Enumeration.swift in Sources */,
 				8BCB61C42A75759C003458D0 /* MovieInfo.swift in Sources */,

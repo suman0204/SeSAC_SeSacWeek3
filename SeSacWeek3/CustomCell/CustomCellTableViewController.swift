@@ -7,7 +7,11 @@
 
 import UIKit
 
-
+/*
+ 1.파티를 막자
+ 2.sender.tag
+ 3.데이터
+ */
 
 class CustomCellTableViewController: UITableViewController {
     
@@ -16,7 +20,7 @@ class CustomCellTableViewController: UITableViewController {
     //observer
     var todo = TodoCSInformation() {
         didSet { // 변수가 달라짐을 감지!
-            print("DidSet이 뭘까..")
+//            print("DidSet이 뭘까..")
             tableView.reloadData()
         }
     }
@@ -33,7 +37,7 @@ class CustomCellTableViewController: UITableViewController {
     
     @objc func searchBarReturnTapped() {
         //Todo 항목을
-        let data = TodoCS(main: searchBar.text!, sub: "23.08.01", like: false, done: false) //옵셔널 해제해주기
+        let data = TodoCS(main: searchBar.text!, sub: "23.08.01", like: false, done: false, color: TodoCSInformation.randomBackgroundColor()) //옵셔널 해제해주기
         
         //list에 추가
 //        todo.list.append(<#T##newElement: TodoCS##TodoCS#>) // 배열 뒤쪽에 추가
